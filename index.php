@@ -38,7 +38,7 @@ require __DIR__.'/laravel/vendor/autoload.php';
 $app = require_once __DIR__.'/laravel/bootstrap/app.php';
 // set the public path to this directory
 $app->bind('path.public', function() {
-return _DIR_;
+return ;
 });
 
 /*
